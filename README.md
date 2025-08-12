@@ -36,23 +36,17 @@ Weather-App/
 1. **Clone the repository**
 git clone https://github.com/AbdulSarban/Whether_app_using_java.git
 
-markdown
-Copy
-Edit
+
 
 2. **Navigate to project folder**
 cd Whether_app_using_java
 
-markdown
-Copy
-Edit
+
 
 3. **Run the project using Maven**
 mvn javafx:run
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -62,9 +56,7 @@ Sign up at [OpenWeatherMap](https://openweathermap.org/) to get your API key and
 
 private static final String API_KEY = "YOUR_API_KEY";
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -81,4 +73,5 @@ Feel free to fork this repository and submit pull requests to improve the app.
 
 ## 📜 License
 This project is licensed under the MIT License.
+
 
