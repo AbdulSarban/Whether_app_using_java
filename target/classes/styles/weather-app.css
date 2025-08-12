@@ -1,0 +1,73 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #87CEEB, #E0F6FF);
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.title {
+    -fx-text-fill: #2C3E50;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 2, 0, 1, 1);
+}
+
+.weather-button {
+    -fx-background-color: #3498DB;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 2);
+}
+
+.weather-button:hover {
+    -fx-background-color: #2980B9;
+}
+
+.weather-button:pressed {
+    -fx-background-color: #21618C;
+    -fx-effect: none;
+}
+
+.weather-button:disabled {
+    -fx-background-color: #BDC3C7;
+    -fx-cursor: default;
+}
+
+.weather-display {
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 3);
+}
+
+.status-label {
+    -fx-text-fill: #34495E;
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #BDC3C7;
+    -fx-border-width: 1px;
+    -fx-padding: 8px;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498DB;
+    -fx-border-width: 2px;
+}
+
+.root.dark {
+    -fx-background-color: linear-gradient(to bottom, #2C3E50, #34495E);
+}
+
+.root.dark .title {
+    -fx-text-fill: #ECF0F1;
+}
+
+.root.dark .weather-display {
+    -fx-background-color: rgba(52, 73, 94, 0.9);
+}
+
+.root.dark .status-label {
+    -fx-text-fill: #BDC3C7;
+}
