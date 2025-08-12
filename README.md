@@ -69,7 +69,8 @@ Edit
 ---
 
 ## 📸 Screenshots
-*(Add screenshots of your app here)*
+<img width="631" height="795" alt="image" src="https://github.com/user-attachments/assets/b94ed985-79d9-4cd1-8c14-e24b7fb27396" />
+
 
 ---
 
@@ -80,3 +81,4 @@ Feel free to fork this repository and submit pull requests to improve the app.
 
 ## 📜 License
 This project is licensed under the MIT License.
+
